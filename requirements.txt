@@ -2,3 +2,4 @@ PDFNetPython3
 sys
 os
 pypdf2
+pdf2docx
