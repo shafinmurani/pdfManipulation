@@ -4,3 +4,4 @@ os
 pypdf2
 pdf2docx
 Pillow
+pdf2image
