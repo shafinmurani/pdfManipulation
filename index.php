@@ -78,10 +78,10 @@
                     <a href="exceltopdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Excel to PDF</p>
                 </div>
-                <div class="tool">
+                <!-- <div class="tool">
                     <a href="editpdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Edit PDF</p>
-                </div>
+                </div> -->
                 <div class="tool">
                     <a href="pdftojpg.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>PDF to JPG</p>
@@ -106,30 +106,30 @@
                     <a href="htmltopdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>HTML to PDF</p>
                 </div>
-                <div class="tool">
+                <!-- <div class="tool">
                     <a href="unlockpdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Unlock PDF</p>
-                </div>
+                </div> -->
                 <div class="tool">
                     <a href="protectpdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Protect PDF</p>
                 </div>
-                <div class="tool">
+                <!-- <div class="tool">
                     <a href="organizepdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Organize PDF</p>
-                </div>
-                <div class="tool">
+                </div> -->
+                <!-- <div class="tool">
                     <a href="pdftopdfa.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>PDF to PDF/A</p>
-                </div>
+                </div> -->
                 <div class="tool">
                     <a href="repairpdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Repair PDF</p>
                 </div>
-                <div class="tool">
+                <!-- <div class="tool">
                     <a href="signpdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Sign PDF</p>
-                </div>
+                </div> -->
                 
                                
             </div>
