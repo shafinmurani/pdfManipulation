@@ -3,3 +3,4 @@ sys
 os
 pypdf2
 pdf2docx
+Pillow

@@ -47,7 +47,7 @@
                     $fileExt = explode('.',$fileName);
                     $fileActualExt = strtolower(end($fileExt));
                     
-                    $allowed = array('pdf');
+                    $allowed = array('jpg','jpeg');
                 
                     if(in_array($fileActualExt, $allowed)){
                         if($fileErr === 0){
@@ -55,7 +55,7 @@
                                 $fileNameNew = uniqid('',true).'.'.$fileActualExt;
                                 $_SESSION['file1'] = $fileNameNew;
                                 $exploded = explode('.',$_SESSION['file1']);
-                                $final = 'convertedToDocx/'.$exploded[0].'.'.$exploded[1].'.docx';
+                                $final = 'convertedToPdf/'.$exploded[0].'.'.$exploded[1].'.pdf';
                                 $destination = 'uploads/'.$fileNameNew;
                                 move_uploaded_file($fileTmpName, $destination);
                                 // echo "Upload Succesful File 1.<br>";
@@ -68,10 +68,10 @@
                     }else{
                         echo "File type unsupported. Please upload a file with a '.pdf' Extension <br>";
                     }
-                    $cmd = "python3 converters/pdf-to-docx.py uploads/".$_SESSION['file1'];
+                    $cmd = "python3 converters/jpg-to-pdf.py ".$_SESSION['file1'];
                     // echo $cmd;
                     shell_exec($cmd);
-                    echo "<br><a href='{$final}'>Download Converted Docx.</a>";
+                    echo "<br><a href='{$final}'>Download Converted pdf.</a>";
                 }
                 ?>
                 </div>
