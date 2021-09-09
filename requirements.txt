@@ -1,3 +1,4 @@
 PDFNetPython3
 sys
 os
+pypdf2
