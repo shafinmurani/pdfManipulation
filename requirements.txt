@@ -6,3 +6,4 @@ pdf2docx
 Pillow
 pdf2image
 pymupdf
+pdfkit
