@@ -7,3 +7,4 @@ Pillow
 pdf2image
 pymupdf
 pdfkit
+pdf2pptx
