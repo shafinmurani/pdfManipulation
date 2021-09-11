@@ -74,10 +74,10 @@
                     <a href="powerpointtopdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Powerpoint to PDF</p>
                 </div>
-                <div class="tool">
+                <!-- <div class="tool">
                     <a href="exceltopdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Excel to PDF</p>
-                </div>
+                </div> -->
                 <!-- <div class="tool">
                     <a href="editpdf.php"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
                     <p>Edit PDF</p>

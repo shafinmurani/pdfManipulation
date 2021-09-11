@@ -70,7 +70,7 @@
                     $cmd = "python3 converters/assign-numbers.py ".$_SESSION['file1'];
                     // echo $cmd;
                     shell_exec($cmd);
-                    echo "<br><a href='{$final}'>Download Compressed PDF.</a>";
+                    echo "<br><a href='{$final}'>Download Numbered PDF.</a>";
                 }
                 ?>
                 </div>
